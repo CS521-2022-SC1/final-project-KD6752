@@ -19,7 +19,7 @@ print(basic_stats)
 basic_stats.to_csv('basic_stats.csv', index=False)
 
 
-# Get statistics on qualitative data. Not sure what libraries would be ideal.
+# Get statistics on qualitative data. Not sure what modules would be ideal.
 
 
 # Experimenting with plots from matplotlib
