@@ -31,7 +31,7 @@ python modules.
 we get our data from github url mentioned below.
 [House Prediction Data.csv](https://github.com/bursteinalan/Data-Sets/tree/master/Housing)
 
-###Cleaning Data:
+### Cleaning Data:
 There were 81 columns including index, we dropped columns indexed 0,3,6,57,72,73,74 that has high number of null values and also not significant effect on our target attributes, 'SalePrice' after that using
 pandas, we convert categorical data to numerical data. also, we dropped  rows that have at least one NaN
 value. Finally, we removed outliers outside 3sd from mean using pandas.we have 1350 by 74 dimension data frame in the end.
@@ -55,14 +55,14 @@ X_train.shape,X_test.shape
 we chose 30% of our total data for testing and 70% for training the models, we also give some flexibility with randomness(random_state=10) of choosing data for test and train from original 
 data set.
 
-###fitting different models and finding errors and aacuracy
+### fitting different models and finding errors and aacuracy:
 we use three different regressor models namely 'Linear Regression', 'Random Forest' and
 'Gradient Boosting' using SKLearn, which is basically import the model and fit in our data
 set. while fitting models, we found that there is a little  more residual error produced by
 Linear regression and hence has a bit less accurate(~80%) than our random forest(~82%) and gradient boosting(~82%) models both of which have little less error and higher accuracy. 
 
 
-##Use of project
+## Use of project:
 For predicting price of house,we need to have attributes availble, for example
 we need to have value of overall quality of house, gross living area, garage size
 external quality of house and kitchen quality  and we can put these value to as a
@@ -70,7 +70,7 @@ X_test in following equations
 predictions = model.predict(X_test)
 where model can be linear, random forest or gradient boosting.
 
-##Credits/Appreciation
+## Credits/Appreciation:
 
 two people were involved in this project those are the authors listed at bottom of
 this file. we are also like to appreciate guidance from our professor Alan Burstein and
