@@ -28,7 +28,7 @@ important ones.
 ## Steps used to get results:
 
 ### Getting data sets
-we get our data from github url mentioned here.
+We get our data from github url mentioned here.
 [House Prediction Data.csv](https://github.com/bursteinalan/Data-Sets/tree/master/Housing)
 
 ### Cleaning Data:
@@ -74,7 +74,7 @@ where model can be linear, random forest or gradient boosting.
 
 ## Credits/Appreciation:
 
-two people were involved in this project those are the authors listed at bottom of
+Two people were involved in this project those are the authors listed at bottom of
 this file. we are also like to appreciate guidance from our professor Alan Burstein and
 TA Yingshi Huang.
 
