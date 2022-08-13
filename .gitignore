@@ -1,2 +1,5 @@
 .idea/
-.Rhistory/
+
+.Rhistory
+
+.ipynb_checkpoints
